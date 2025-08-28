@@ -59,3 +59,12 @@ if texto and texto[-1] in vocales:
     print(texto,"¡")
 else:
     print(texto)
+#Ejercicio 8#
+nombre=input("Ingrese su nombre: ")
+menu=input("Ingrese: 1. Si quiere su nombre en mayúsculas. 2. Si quiere su nombre en minúsculas.3. Si quiere su nombre con la primera letra mayúscula ")
+if menu=="1":
+    print(nombre.upper())
+elif menu=="2":
+    print(nombre.lower())
+elif menu=="3":
+    print(nombre.title())
