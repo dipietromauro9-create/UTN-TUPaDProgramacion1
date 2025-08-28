@@ -51,3 +51,11 @@ elif mean(numeros_aleatorios)<median(numeros_aleatorios) and median(numeros_alea
     print("Hay sesgo negativo")
 elif mean(numeros_aleatorios)==median(numeros_aleatorios) and median(numeros_aleatorios)==mode(numeros_aleatorios):
     (print("sin sesgo"))
+
+#Ejercicio 7#
+texto=input("Ingrese un texto: ")
+vocales="A,E,I,O,U,a,e,i,o,u"
+if texto and texto[-1] in vocales:
+    print(texto,"¡")
+else:
+    print(texto)
