@@ -29,3 +29,10 @@ elif edad4<30:
     print("Pertenece a la categoría adulto/a joven")
 else:
     print("Pertenece a la categoría adulto/a")
+
+#Ejercicio 5#
+contraseña=input("Ingrese una contraseña entre 8 y 14 caracteres ")
+if contraseña>=8 and contraseña<=18:
+    print("Ha ingresado una contraseña correcta")
+else:
+    print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
