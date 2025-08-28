@@ -36,3 +36,18 @@ if contraseña>=8 and contraseña<=18:
     print("Ha ingresado una contraseña correcta")
 else:
     print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
+
+#Ejercicio 6#
+from statistics import mode,median,mean
+import random
+numeros_aleatorios=[random.randint(1,100)for i in range(50)]
+print(numeros_aleatorios)
+print("El promedio de estos numeros es: ",mean(numeros_aleatorios))
+print("El valor mas comun es:",mode(numeros_aleatorios))
+print("La mediana es: ",median(numeros_aleatorios))
+if mean(numeros_aleatorios)>median(numeros_aleatorios) and median(numeros_aleatorios)>mode(numeros_aleatorios):
+    print("Hay sesgo positivo")
+elif mean(numeros_aleatorios)<median(numeros_aleatorios) and median(numeros_aleatorios)<mode(numeros_aleatorios):
+    print("Hay sesgo negativo")
+elif mean(numeros_aleatorios)==median(numeros_aleatorios) and median(numeros_aleatorios)==mode(numeros_aleatorios):
+    (print("sin sesgo"))
