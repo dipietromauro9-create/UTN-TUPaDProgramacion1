@@ -84,3 +84,34 @@ elif magnitud<7:
     print("Muy Fuerte (puede causar daños significativos).")
 else:
     print("Extremo (puede causar graves daños a gran escala).")
+
+#Ejercicio 10#
+hemisferio=input("¿En que hemisferio te encuentras? N/S ")
+mes=input("¿Que mes del año es? ")
+dia=input("¿Que dia del mes es? ")
+if mes>"12" or dia>"32":
+    print("Ingrese un mes o dia valido ")
+    #Linea para invierno en el hemisferio norte#
+if hemisferio=="N" and ((mes=="12" and dia>="21") or mes=="1" or mes=="2" or (mes=="3" and dia<="20")):
+    print("Usted se encuentra en invierno")
+ #Linea para verano en el hemisferio sur#
+if hemisferio=="S" and ((mes=="12" and dia>="21") or mes=="1" or mes=="2" or (mes=="3" and dia<="20")):
+    print("Usted se encuentra en Verano")
+ #Linea para primavera en el hemisferio Norte#
+if hemisferio=="N" and ((mes=="3" and dia>="21") or mes=="4" or mes=="5" or (mes=="6" and dia<="20")):
+    print("Usted se encuentra en Primavera")
+#Linea para otoño en el hemisferio Sur#
+if hemisferio=="S" and ((mes=="3" and dia>="21") or mes=="4" or mes=="5" or (mes=="6" and dia<="20")):
+    print("Usted se encuentra en Otoño")
+#Linea para verano en el hemisferio norte#
+if hemisferio=="N" and ((mes=="6" and dia>="21") or mes=="7" or mes=="8" or (mes=="9" and dia<="20")):
+    print("Usted se encuentra en verano")
+#Linea para invierno en el hemisferio sur#
+if hemisferio=="S" and ((mes=="6" and dia>="21") or mes=="7" or mes=="8" or (mes=="9" and dia<="20")):
+    print("Usted se encuentra en invierno")
+#Linea para otoño en el hemisferio norte#
+if hemisferio=="N" and ((mes=="9" and dia>="21") or mes=="10" or mes=="11" or (mes=="12" and dia<="20")):
+    print("Usted se encuentra en Otoño")
+#Linea para primavera en el hemisferio sur#
+if hemisferio=="S" and ((mes=="9" and dia>="21") or mes=="10" or mes=="11" or (mes=="12" and dia<="20")):
+    print("Usted se encuentra en Primavera")
