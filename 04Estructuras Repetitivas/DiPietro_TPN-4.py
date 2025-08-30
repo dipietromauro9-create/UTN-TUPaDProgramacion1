@@ -12,3 +12,10 @@ sumatoria=0
 for i in range(x,y+1):
     sumatoria=sumatoria+i
 print(f"El valor de la sumatoria entre estos 2 rangos es: {sumatoria}")
+#Ejercicio 4#
+sumatoria=0
+num=1
+while num!=0:
+    num=int(input("Ingrese numero que quiere agregar a la secuencia: "))
+    sumatoria=sumatoria+num
+print(f"La sumatoria total es: {sumatoria}")
