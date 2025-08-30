@@ -29,3 +29,6 @@ while adivina!=numero_aleatorio:
     adivina=int(input("Adivina el numero: "))
     cont=cont+1
 print(f"!Felicidades acertaste el numero¡ Cantidad de intentos {cont}")
+#Ejercicio 6#
+for i in range(0,101,2):
+    print(i)
