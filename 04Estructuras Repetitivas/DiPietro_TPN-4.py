@@ -5,3 +5,10 @@ for i in range(0,101):
 numero=input("Ingrese un numero ")
 digitos=len(numero)
 print(f"La cantidad de digitos que tiene {numero} es {digitos}")
+#Ejercicio 3#
+x=int(input("Ingrese el primer numero "))
+y=int(input("Ingrese el segundo numero "))
+sumatoria=0
+for i in range(x,y+1):
+    sumatoria=sumatoria+i
+print(f"El valor de la sumatoria entre estos 2 rangos es: {sumatoria}")
