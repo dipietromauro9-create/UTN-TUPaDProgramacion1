@@ -32,3 +32,12 @@ print(f"!Felicidades acertaste el numero¡ Cantidad de intentos {cont}")
 #Ejercicio 6#
 for i in range(100,-1,-2):
     print(i)
+#Ejercicio 7#
+num=int(input("Ingrese un numero entero positivo para el final de la secuencia "))
+sumatoria=0
+if num>0:
+    for i in range(0,num+1):
+        sumatoria=sumatoria+i
+    print(f"La sumatoria total es: {sumatoria}")
+else:
+    print("Porfavor ingrese un numero positivo")
