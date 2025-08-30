@@ -30,5 +30,5 @@ while adivina!=numero_aleatorio:
     cont=cont+1
 print(f"!Felicidades acertaste el numero¡ Cantidad de intentos {cont}")
 #Ejercicio 6#
-for i in range(0,101,2):
+for i in range(100,-1,-2):
     print(i)
