@@ -66,3 +66,7 @@ for i in range(100):
     numeros=int(input("Ingrese 100 numeros "))
     suma=suma+numeros
 print(f"El promedio de estos 100 numeros es: {suma/100}")
+#Ejercicio 10#
+numero=input("Ingrese un numero: ")
+invertido=numero[::-1]
+print(f"EL numero invertido es: {invertido}")
