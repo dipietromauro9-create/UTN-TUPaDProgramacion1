@@ -41,3 +41,22 @@ if num>0:
     print(f"La sumatoria total es: {sumatoria}")
 else:
     print("Porfavor ingrese un numero positivo")
+    #Ejercicio 8#
+    cont_par=0
+cont_impar=0
+cont_pos=0
+cont_neg=0
+for i in range(5):
+    numeros=int(input("Ingrese 100 numeros "))
+    if numeros%2==0:
+        cont_par= cont_par+1
+    else:
+        cont_impar=cont_impar+1
+    if numeros>=0:
+        cont_pos=cont_pos+1
+    else:
+        cont_neg=cont_neg+1
+print(f"La cantidad de numeros pares son: {cont_par}")
+print(f"La cantidad de numeros impares son: {cont_impar}")
+print(f"La cantidad de numeros positivos son: {cont_pos}")
+print(f"La cantidad de numeros negativos son: {cont_neg}")
