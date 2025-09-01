@@ -60,3 +60,9 @@ print(f"La cantidad de numeros pares son: {cont_par}")
 print(f"La cantidad de numeros impares son: {cont_impar}")
 print(f"La cantidad de numeros positivos son: {cont_pos}")
 print(f"La cantidad de numeros negativos son: {cont_neg}")
+#Ejercicio 9#
+suma=0
+for i in range(100):
+    numeros=int(input("Ingrese 100 numeros "))
+    suma=suma+numeros
+print(f"El promedio de estos 100 numeros es: {suma/100}")
