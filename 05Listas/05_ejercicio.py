@@ -1,0 +1,1 @@
+"""Este programa lo que realiza es que elimina el valor mas alto que esta inlcuido en la lista."""
