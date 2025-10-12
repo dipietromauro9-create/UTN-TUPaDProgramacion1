@@ -1,0 +1,5 @@
+{'Nombre': 'Lapicera', 'Precio': '1200', 'Cantidad': '30'}
+{'Nombre': 'goma', 'Precio': '800', 'Cantidad': '50'}
+{'Nombre': 'Lapiz', 'Precio': '500', 'Cantidad': '40'}
+{'Nombre': 'fibron', 'Precio': 5000, 'Cantidad': 50}
+{'Nombre': 'color', 'Precio': 400, 'Cantidad': 100}
